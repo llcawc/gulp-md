@@ -1,0 +1,33 @@
+{
+  "name": "gulp-md",
+  "version": "0.0.1",
+  "description": "Gulp plugin for parse markdown files and convert to html",
+  "license": "MIT",
+  "author": "llcawc",
+  "homepage": "https://github.com/llcawc",
+  "type": "module",
+  "main": "./gulp-md.js",
+  "exports": "./gulp-md.js",
+  "scripts": {
+    "tsc": "tsc -p ./tsconfig.json",
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "dependencies": {
+    "isomorphic-dompurify": "^2.19.0",
+    "marked": "^15.0.4",
+    "through2": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/through2": "^2.0.41",
+    "del": "^8.0.0",
+    "gulp": "^5.0.0",
+    "gulp-replace": "^1.1.4",
+    "typescript": "^5.7.2"
+  },
+  "browserslist": [
+    ">= 0.5%",
+    "last 2 major versions",
+    "not dead"
+  ]
+}
